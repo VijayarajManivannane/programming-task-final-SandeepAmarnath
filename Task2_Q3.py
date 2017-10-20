@@ -40,7 +40,7 @@ print("The coldest day is on "+that_day+' and the tempearature is '+least)
 for day in all_days:
     if day[0]=='Cloudy':
         that_day=day[1]
-        print("The chances that it may rain on "+day[1]+" is more")
+        print("The chances that it may rain on "+day[1]+" is more since it is "+day[0])
     else:
         pass
 
